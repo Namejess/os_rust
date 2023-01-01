@@ -1,0 +1,15 @@
+[package]
+name = "os_rust"
+version = "0.1.0"
+edition = "2018"
+authors = ["Jessy DROUIN"]
+
+
+[dependencies]
+bootloader = "0.9.8" 
+
+[profile.dev]
+panic = "abort"
+
+[profile.release]
+panic = "abort"
